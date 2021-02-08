@@ -8,6 +8,7 @@ public class Ascending {
 	
 	public static int[] ascendingOrder()
 	{
+	System.out.println("ascendingOrder=");
 	for(int i=0; i<arr.length; i++)
 	{
 		for(int j=i+1; j<arr.length; j++)
@@ -19,8 +20,10 @@ public class Ascending {
 				arr[j]=temp;
 			}
 		}
+		
 		System.out.println(arr[i]);
 	}
+
 	return arr;
 	}
 	
